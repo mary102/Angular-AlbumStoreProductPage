@@ -30,9 +30,7 @@ const appRoutes: Routes = [
     BrowserModule,
     FormsModule,
     HttpModule,
-    ProductPageComponent
     RouterModule.forRoot(appRoutes)
-
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]
